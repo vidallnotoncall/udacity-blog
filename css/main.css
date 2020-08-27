@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width: 100%;
+}
+footer{
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.hero {
+}
+.category {
+  box-shadow: 0 0 3px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.cat-title {
+  text-align: center;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
