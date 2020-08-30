@@ -1,16 +1,20 @@
-.card{
-  width: 90vw;
+.card {
+  width: 93vw;
+  height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 10px;
   text-align: center;
+  box-shadow: 0 0 3px;
+  border-radius: 25px;
+  margin: 30px 0px 10px 0px;
 }
-
-.hero{
-  display: grid;
-  grid-template-areas: 
-  
-  ;
+.card img {
+  width: 100%;
+  max-height: 60%;
+  max-width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+.card a {
+  color: black;
 }

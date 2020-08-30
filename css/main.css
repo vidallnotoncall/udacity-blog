@@ -5,17 +5,21 @@ body {
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-img{
-  max-width: 100%;
-}
-footer{
-  padding: 10px;
+
+footer {
+  padding: 10px 0px 10px 0px;
 }
 .navbar {
   display: flex;
@@ -23,17 +27,11 @@ footer{
   text-decoration: none;
   justify-content: space-between;
 }
-.hero {
-}
-.category {
-  box-shadow: 0 0 3px;
-  border-radius: 25px;
-  margin: 10px;
-}
+
 .cat-title {
   text-align: center;
 }
-.social{
+.social {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
