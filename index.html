@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Slabo+27px&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -18,9 +21,10 @@
     </header>
 
     <main>
+      <a href="blog-post.html">
       <article class="hero">
-        <a href="blog-post.html">
-          <h2 class="card-title">APPLE VS EPIC</h2>
+        
+          <h1 class="hero-title">APPLE VS EPIC</h1>
           <p class="card-content">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Exercitationem animi minus quam officiis, pariatur atque officia
@@ -29,6 +33,8 @@
           </p></a
         >
       </article>
+
+
       <section class="category">
         <h2 class="cat-title">WHATS POPULAR</h2>
         <article class="card">
@@ -98,8 +104,10 @@
               Blanditiis cumque, consequuntur obcaecati quas debitis saepe ipsa
               minima explicabo sapiente, itaque non atque veniam sequi nulla.
               Laudantium voluptates illum excepturi assumenda.
-            </p></a
-          >
+            </p>
+          </a>
+
+          
         </article>
         <article class="card">
           <a href="">
@@ -117,15 +125,24 @@
 
       <footer>
         <ul class="social">
-          <li><a href="">facebook</a></li>
-          <li><a href="">instagram</a></li>
-          <li><a href="">twitter</a></li>
-          <li><a href="">youtube</a></li>
+          <li><a href=""><i class="	fa fa-facebook-official"></i></a></li>
+          <li><a href=""><i class="	fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
         </ul>
-        <form id="subscribe" action="">
-          <label for="email">Enter your email adress to subscibe!</label>
-          <input type="email" name="" id="" />
-          <input type="button" value="Submit" />
+
+
+        <form>
+          <ul class="subscribe">
+            <li class="form-row">
+              <label for="email">Enter your email adress to subscibe!</label>
+            </li>
+            <li class="form-row">
+              <input type="email" name="" id="" />
+            </li>
+          <li class="form-row">
+            <input type="button" value="Submit" />
+          </li>          
         </form>
       </footer>
     </main>
