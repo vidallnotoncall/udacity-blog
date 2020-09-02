@@ -1,4 +1,18 @@
+footer{
+  width: 100vw;
+  height: 25vh;
+  background-color: #aaaaaa;
+  display: flex;
+  flex-direction: ;
+}
+
 .subsribe {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social {
+  display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
