@@ -13,6 +13,12 @@ h3,
 h4 {
   font-family: "Slabo 27px", serif;
 }
+h1{
+  font-size: 1.75rem;
+}
+h2{
+  font-size: 1.5rem;
+}
 ul {
   list-style-type: none;
 }
@@ -52,7 +58,7 @@ main {
 }
 
 .cat-title {
-  text-align: center;
+  text-align: left;
 }
 .btn-default{
   width: 100%;
